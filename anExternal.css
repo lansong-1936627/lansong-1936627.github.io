@@ -1,0 +1,48 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#p1 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+#p2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pics img {
+    height: 50px;
+    width: 50px;
+}
+
+#apprentice {
+    position: relative;
+    text-align: center;
+    color:purple;
+}
+
+#apprentice h3 {
+    border-style: dotted;
+}
+
+#apprentice img {
+    width: 1000px;;
+    margin: 20px 20px 20px 20px;
+}
+
+#centered {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+
+#floated {
+    width: 400px;
+    float: right;
+    border: 10px solid red;
+    border-radius: 15px;
+}
